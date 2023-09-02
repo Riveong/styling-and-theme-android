@@ -1,9 +1,27 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Layouting" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Layouting" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/blue_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+
+        <item name="colorSecondary">@color/blue_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+
+
+
     </style>
+    
+    <style name="textcontent">
+        <item name="android:padding">20dp</item>
+    </style>
+    <style name="textcontent.submissive">
+        <item name="android:textColor">@color/colorSubtitle</item>
+    </style>
+    
 
     <style name="Theme.Layouting" parent="Base.Theme.Layouting" />
 </resources>

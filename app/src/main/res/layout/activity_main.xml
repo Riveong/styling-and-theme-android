@@ -51,6 +51,7 @@
         android:text="Hey guys,"
         android:textSize="32sp" />
     <TextView
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="12sp"
@@ -60,6 +61,7 @@
         android:text="My name is Jamal"
         android:textStyle="bold" />
     <TextView
+        style="@style/textcontent.submissive"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -122,7 +124,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut condimentum do
             </TableRow>
 
         </TableLayout>
-
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Share to Other Jamals"/>
 
 </LinearLayout>
 
