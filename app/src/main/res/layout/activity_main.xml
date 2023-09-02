@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/banner"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#4D000000"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:text="a place holder"
+            android:textColor="@android:color/white" />
+
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Hey guys,"
+        android:textSize="32sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="My name is Jamal"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:lineSpacingMultiplier="1"
+        android:text="Every 60 seconds in Africa a minute passes, together we can stop this. Please spread the words\n\n
+here a lorem ipsum for the spice\n
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut condimentum dolor. Aenean sit amet porta sapien, nec pellentesque magna. Etiam et rhoncus leo. Vestibulum accumsan leo ac tortor gravida, nec pulvinar erat pellentesque. Vivamus porttitor semper tellus convallis faucibus. Fusce vehicula auctor dui, ac elementum magna vulputate id. Donec lobortis, nibh et tincidunt mollis, justo quam vestibulum est, a placerat arcu massa eget leo. Etiam ac sapien ut elit rhoncus volutpat ac at dui. In blandit erat faucibus faucibus tincidunt. Nulla in auctor urna, at pretium nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam sed sollicitudin dolor. Phasellus sit amet neque mattis purus convallis blandit.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut condimentum dolor. Aenean sit amet porta sapien, nec pellentesque magna. Etiam et rhoncus leo. Vestibulum accumsan leo ac tortor gravida, nec pulvinar erat pellentesque. Vivamus porttitor semper tellus convallis faucibus. Fusce vehicula auctor dui, ac elementum magna vulputate id. Donec lobortis, nibh et tincidunt mollis, justo quam vestibulum est, a placerat arcu massa eget leo. Etiam ac sapien ut elit rhoncus volutpat ac at dui. In blandit erat faucibus faucibus tincidunt. Nulla in auctor urna, at pretium nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam sed sollicitudin dolor. Phasellus sit amet neque mattis purus convallis blandit."
+        />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="40dp">
+            <TableRow>
+
+
+
+
+                <TextView
+
+                    android:text="contact person"
+
+
+
+                    />
+
+
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:text="name"
+                    />
+
+
+                <TextView
+                    android:text="phone number"
+                    />
+
+
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="Thariq"
+                    />
+
+                <TextView
+                    android:text="+69420"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+
+</LinearLayout>
+
+</ScrollView>
